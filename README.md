@@ -1,6 +1,10 @@
 # run-once-colab
   This is a custom cell magic command in order to prevent multiple runs, so the cell must be run once for every runtime. If the cell has already run before, then it will display the history output. Support every output type so far (image, matplotlib output, pandas dataframe, and so on).
 
+# Getting Started
+Run this cell to register magic cell `%%run_once`
+![image](https://github.com/wawan-ikhwan/run-once-colab/assets/72451078/567bce81-5336-424d-9bbb-548f2b319de9)
+
 # Example Usage:
 ## First Run (it will compute actual output):
 ![image](https://github.com/wawan-ikhwan/run-once-colab/assets/72451078/0a0cb2e9-c70b-4c5a-aa35-a99812c063f0)
