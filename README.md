@@ -1,4 +1,4 @@
-# run-once-colab
+# run-once-ipynb
 This custom cell magic command ensures that the notebook cell runs only once during the runtime or even the lifetime. If the cell has already been executed before with identical code, it will display the previous output, saving time by avoiding redundant computations.
 
 Support every output type so far (Image, Matplotlib, Pandas DataFrame, etc.).
