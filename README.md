@@ -1,5 +1,7 @@
 # run-once-colab
-  This is a custom cell magic command in order to prevent multiple runs, so the cell must be run once for every runtime. If the cell has already run before, then it will display the history output. Support every output type so far (image, matplotlib output, pandas dataframe, and so on).
+This custom cell magic command ensures that the notebook cell runs only once during the runtime or even the lifetime. If the cell has already been executed before with identical code, it will display the previous output, saving time by avoiding redundant computations.
+
+Support every output type so far (Image, Matplotlib, Pandas DataFrame, etc.).
 
 # Getting Started
 Run this cell to register magic cell `%%run_once`
